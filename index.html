@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - MK1</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">       
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                Character Select
+            </h1>            
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/ashrah.webp" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Ashrah</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ashrah" data-name="ashrah">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/ashrah.PNG" alt="Personagem ashrah">
+                </li>
+
+                <li class="personagem" id="kitana" data-name="Kitana">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/kitana.PNG" alt="Personagem Kitana">
+                </li>
+
+                <li class="personagem" id="havik" data-name="Havik">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/havik.PNG" alt="Personagem Havik">
+                </li>
+
+                <li class="personagem" id="cage" data-name="Johnny Cage">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/cage.PNG" alt="Personagem Cage">
+                </li>
+
+                <li class="personagem" id="kenshi" data-name="Kenshi">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/kenshi.PNG" alt="Personagem Kenshi">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="baraka" data-name="Baraka">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/baraka.PNG" alt="Personagem Baraka">
+                </li>
+
+                <li class="personagem" id="general-shao" data-name="General Shao">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/shao.PNG" alt="Personagem General Shao">
+                </li>
+
+                <li class="personagem" id="geras" data-name="Geras">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/geras.PNG" alt="Personagem Geras">
+                </li>
+
+                <li class="personagem" id="liu-kang" data-name="Liu Kang">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/liu-kang.PNG" alt="Personagem Liu Kang">
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/baraka.webp" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Baraka</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
